@@ -12,6 +12,8 @@ echo
 echo "数组"
 array=("tom" "marry" "jerry")
 echo '${array[0]} is '${array[0]}
+echo '${#array[1]} is '${#array[1]}
 echo '${array[@]} is '${array[@]}
 echo '${#array[@]} is '${#array[@]}
-echo '${#array[1]} is '${#array[1]}
+echo '${array[*]} is '${array[*]}
+echo '${#array[*]} is '${#array[*]}
